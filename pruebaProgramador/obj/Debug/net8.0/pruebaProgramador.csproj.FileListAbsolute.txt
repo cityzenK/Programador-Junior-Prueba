@@ -1,0 +1,14 @@
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\pruebaProgramador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\pruebaProgramador.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\pruebaProgramador.AssemblyInfo.cs
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\pruebaProgramador.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\bin\Debug\net8.0\pruebaProgramador.exe
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\bin\Debug\net8.0\pruebaProgramador.deps.json
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\bin\Debug\net8.0\pruebaProgramador.runtimeconfig.json
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\bin\Debug\net8.0\pruebaProgramador.dll
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\bin\Debug\net8.0\pruebaProgramador.pdb
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\pruebaProgramador.dll
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\refint\pruebaProgramador.dll
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\pruebaProgramador.pdb
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\pruebaProgramador.genruntimeconfig.cache
+C:\Users\PC\source\repos\pruebaProgramador\pruebaProgramador\obj\Debug\net8.0\ref\pruebaProgramador.dll
