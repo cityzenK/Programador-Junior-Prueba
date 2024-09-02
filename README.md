@@ -12,3 +12,8 @@ Copiar el repositorio con git
 ```sh
 git clone https://github.com/cityzenK/Programador-Junior-Prueba.git
 ```
+de no contar con git se puede descargar el proyecto en .zip en el boton Code.
+
+Para la prueba en C# entrar a la carpte ./PruebaPRogramdor y abrir el archivo pruebaProgramado.csproj con la Version de visual estudio que tenga instalado.
+
+Con la parte SQL crear un base de datos en SQL Server y abrir el script, este se encargará de crear las tablas y las filas para su ejecucion.
