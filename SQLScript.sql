@@ -30,3 +30,49 @@ INSERT INTO Ordenes(ClienteID, FechaOrden, Total) VALUES (3, CURRENT_TIMESTAMP, 
 INSERT INTO Ordenes(ClienteID, FechaOrden, Total) VALUES (4, CURRENT_TIMESTAMP, 200.75);
 INSERT INTO Ordenes(ClienteID, FechaOrden, Total) VALUES (4, CURRENT_TIMESTAMP, 50.40);
 INSERT INTO Ordenes(ClienteID, FechaOrden, Total) VALUES (5, CURRENT_TIMESTAMP, 333.33);
+
+SELECT *FROM Ordenes;
+/*Select JOIN */
+SELECT c.Nombre, o.FechaOrden, o.Total FROM clientes AS c
+INNER JOIN Ordenes as o on c.clienteID = o.ClienteID;
+
+/*Store Procedure*/
+CREATE PROCEDURE GetOrdenesCliente 
+	@cliente INT
+AS
+BEGIN
+    SELECT *
+    FROM Ordenes
+    WHERE ClienteID = @cliente;
+END;
+
+/*Trigger*/
+CREATE TRIGGER trNoInsertarOrdenCero 
+	ON Ordenes
+	INSTEAD OF INSERT
+AS
+BEGIN
+	IF EXISTS (SELECT * FROM inserted WHERE Total = 0)
+    BEGIN
+        RAISERROR ('Total no puede ser cero', 16, 1);
+        ROLLBACK TRANSACTION;
+        RETURN;
+    END
+    INSERT INTO Ordenes(ClienteID, FechaOrden, Total)
+    SELECT ClienteID, FechaOrden, Total FROM inserted;
+END;
+
+/*Función*/
+CREATE FUNCTION GetOrdenesPorFecha (@Fecha DATE)
+RETURNS INT
+AS 
+BEGIN
+	DECLARE @Filas INT;
+
+	SELECT @Filas = COUNT(*)
+	FROM Ordenes
+	WHERE FechaOrden = @Fecha;
+
+	RETURN @Filas;
+END;
+/**/
