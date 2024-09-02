@@ -1,6 +1,54 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using System.Collections.Generic;
 
+
+using System;
+
+/**Comparar tres números:**/
+void areEquals(int a, int b, int c)
+{
+    if (a == b && a == c)
+    {
+        Console.WriteLine("Los tres numbero son iguales");
+    }
+    else if (b == c)
+    {
+        Console.WriteLine("El segundo y tercer numero son iguales");
+    }
+    else if (a == b)
+    {
+        Console.WriteLine("El primer y segundo numero son iguales");
+    }
+    else if (a == c)
+    {
+        Console.WriteLine("el primero y tercer numero son iguales");
+    }
+    else
+    {
+        Console.WriteLine("Todos los numero son diferentes");
+    }
+}
+int CompareThreeNumbers(int number1, int number2, int number3)
+{
+    areEquals(number1, number2, number3);
+    if (number1 > number2 && number1 > number3)
+    {
+        return number1;
+    }
+    else if (number2 > number1 && number2 > number3)
+    {
+        return number2;
+    }
+    else if (number3 > number1 && number3 > number2)
+    {
+        return number3;
+    }
+    else
+    {
+        return 0;
+    }
+}
+/**Función par o impar:**/
 bool isEven(int number)
 {
     if (number % 2 == 0)
@@ -10,12 +58,13 @@ bool isEven(int number)
     return false;
 }
 
+/**Calcular el cuadrado de un número:**/
 int squared(int number)
 {
     return (number * number);
 }
-
-Dictionary<char, int> fillDictionary(String word)
+/**Problema de lógica:**/
+Dictionary<char, int> fillDictionary(string word)
 {
     word = word.ToLower().Replace(" ", "");
     Console.WriteLine(word);
@@ -34,16 +83,18 @@ Dictionary<char, int> fillDictionary(String word)
     return map;
 }
 
-bool isAnagram(String word1, String word2)
+bool isAnagram(string word1, string word2)
 {
     Dictionary<char, int> map = new Dictionary<char, int>();
     Dictionary<char, int> map2 = new Dictionary<char, int>();
 
     map = fillDictionary(word1);
     map2 = fillDictionary(word2);
-    
+
     return map.Count == map2.Count && !map.Except(map2).Any();
 }
+/*Pruebas*/
+Console.WriteLine(CompareThreeNumbers(3, 3, 3));
 Console.WriteLine(isEven(2));
 Console.WriteLine(squared(2));
 Console.WriteLine(isAnagram("Fotolitografía  ", "Litofotografía"));
