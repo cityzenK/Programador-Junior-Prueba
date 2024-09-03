@@ -4,8 +4,12 @@
  para Esta prueba se utilizo las siguientes Herramientas y lenguajes.
 
  - Visual Studio
- - .Net 8.0
+ - .Net 8.0 SDK
  - SQL y SQL server Management Studio
+
+### Explicacíon de solucion
+En este apartado se muestra un video explicando la soluciones propuestas para cada reto de la prueba.
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/JMrQCYlhdxM)
 
 ### Ejecución
 Copiar el repositorio con git
