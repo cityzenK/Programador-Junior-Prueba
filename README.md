@@ -9,7 +9,7 @@
 
 ### Explicacíon de solucion
 En este apartado se muestra un video explicando la soluciones propuestas para cada reto de la prueba.
-[![Watch the video]([https://i.sstatic.net/Vp2cE.png](https://i9.ytimg.com/vi/JMrQCYlhdxM/mq2.jpg?sqp=CJjE3LYG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGD8gVChlMA8=&rs=AOn4CLAmYthsYexJIFYL6tRtxr8YDVtB-g))](https://youtu.be/JMrQCYlhdxM)
+[![Watch the video]](https://youtu.be/JMrQCYlhdxM)
 
 ### Ejecución
 Copiar el repositorio con git
