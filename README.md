@@ -9,15 +9,15 @@
 
 ### Explicacíon de solucion
 En este apartado se muestra un video explicando la soluciones propuestas para cada reto de la prueba.
-[![Watch the video]](https://youtu.be/JMrQCYlhdxM)
+[[Video Explicativo]](https://youtu.be/JMrQCYlhdxM)
 
 ### Ejecución
 Copiar el repositorio con git
 ```sh
 git clone https://github.com/cityzenK/Programador-Junior-Prueba.git
 ```
-de no contar con git se puede descargar el proyecto en .zip en el boton Code.
+De no contar con git se puede descargar el proyecto en .zip en el boton Code.
 
-Para la prueba en C# entrar a la carpte ./PruebaPRogramdor y abrir el archivo pruebaProgramado.csproj con la Version de visual estudio que tenga instalado.
+Para la prueba en C# entrar a la carpeta ./PruebaPRogramdor y abrir el archivo pruebaProgramado.csproj con la Version de visual estudio que tenga instalado.
 
 Con la parte SQL crear un base de datos en SQL Server y abrir el script, este se encargará de crear las tablas y las filas para su ejecucion.
